@@ -1,4 +1,4 @@
-.section-1 {
+ .section-1 {
     background-color: rgba(255, 0, 0, 0);
     height: 100vh;
     width: 100vw;
@@ -75,55 +75,11 @@
 
 }
 
-@media (height <= 700px) {
-    .name {
-        scale: 0.7;
-        margin-top: 20px;
-        margin-left: 0;
-    }
-    .name-text {
-        width: 90vw;
-        font-size: 1rem;
-        margin-left: 0px;
-        margin-left: 10px;
-    }
-}
 
-@media (width <= 650px) {
-    .logo {
-       scale: 0.5;
-       gap: 0;
-    }
-    .name {
-        scale: 0.7;
-        margin-top: 0;
-        margin-left: 0;
-    }
-    .name-text {
-        width: 90vw;
-        font-size: 1rem;
-        margin-left: 0px;
-        margin-left: 10px;
-    }
-    .git {
-        height: 70px;
-        width: 70px;
-    }
-    
-    .link {
-        height: 70px;
-        width: 110px;
-    }
-    
-    .gmail {
-        height: 70px;
-        width: 70px;
-    }
-}
 
 @media (width >= 1900px) {
     .name {
-        /* scale: 1.2; */
+         scale: 1.2; 
         font-size: 6rem;
         margin-top: 5rem;
         margin-left: 5vw;
@@ -136,4 +92,45 @@
     }
 }
 
+  
+@media (width <= 500px)  {
+    .name { 
+        margin-top: 20px;
+       font-size: 2rem;
+       margin-left: 20px;
+   }
+   .name-text {
+    margin-left: 20px;
+       font-size: 1.6rem;
+       width: 80vw;
+   }
+  }
 
+  @media (width <= 400px)  {
+    .name { 
+        margin-top: 20px;
+       font-size: 2.1rem;
+       margin-left: 20px;
+   }
+   .name-text {
+    margin-left: 20px;
+       font-size: 1.2rem;
+       width: 80vw;
+   }
+  }
+
+  
+
+    
+@media (height >= 700px) and  (width <= 600px) {
+    .name { 
+        margin-top: 20px;
+       font-size: 2rem;
+       margin-left: 20px;
+   }
+   .name-text {
+    margin-left: 20px;
+       font-size: 1.5rem;
+       width: 80vw;
+   }
+  }
