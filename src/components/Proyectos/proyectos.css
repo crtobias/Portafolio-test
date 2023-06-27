@@ -1,0 +1,116 @@
+.section-2 {
+    background-color: rgba(255, 0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyectos-title {
+    margin-top: 0;
+    color: azure;
+    font-size: 3rem;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.img2 {
+    margin: 0;
+    height: 125vh;
+    width: 100vw;
+    background-image: url("../../assets/mimi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    filter: brightness(20%);
+    z-index: -100;
+    rotate: 180deg;
+    margin-top: 25vh;
+}
+
+.container-proyectos {
+    background-color: rgba(215, 218, 221, 0);
+    height: 80vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 15px;
+    position: relative;
+    padding: 20px;
+    z-index: 0;
+    overflow-y: scroll;
+}
+
+
+#proyecto {
+    margin-top: 50px;
+    height: 200px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.124);
+    box-shadow: 1px 1px 10px rgb(105, 101, 101);
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+@media (width <=800px) {
+    .container-proyectos {
+        width: 100vw;
+        display: flex;
+        overflow-x: scroll;
+        align-items: baseline;
+        justify-content: flex-start;
+        white-space: nowrap;
+
+    }
+
+    #proyecto {
+        height: 60vh;
+        width: 400px;
+        min-width: 400px;
+        background-color: #0000001a;
+        margin-right: 10px;
+        display: inline-block;
+    }
+
+
+}
+
+@media (width <=450px) {
+    
+
+    #proyecto {
+        height: 400px;
+        width: 300px;
+        min-width: 300px;
+        background-color: #0000001a;
+        margin-right: 10px;
+        display: inline-block;
+        
+    }
+
+
+}
+
+.poke{
+    background-image: url("../../assets/poke.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rick{
+    background-image: url("../../assets/rick.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.proyecto-title{
+    margin-top: -40px;
+}
