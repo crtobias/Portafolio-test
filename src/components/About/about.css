@@ -1,136 +1,136 @@
  .section-1 {
-    background-color: rgba(255, 0, 0, 0);
-    height: 100vh;
-    width: 100vw;
-    padding-top: 3rem;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    gap: 20px;
-}
+     background-color: rgba(255, 0, 0, 0);
+     height: 100vh;
+     width: 100vw;
+     padding-top: 3rem;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     gap: 20px;
+ }
 
-.name {
-    margin-left: 14vw;
-    font-size: 4rem;
-    color: azure;
-    margin-top: 50px;
-}
+ .name {
+     margin-left: 14vw;
+     font-size: 4rem;
+     color: azure;
+     margin-top: 50px;
+ }
 
-.name-text {
-    font-size: 1.8rem;
-    width: 60vw;
-    margin-left: 14vw;
-    color: azure;
-}
+ .name-text {
+     font-size: 1.8rem;
+     width: 60vw;
+     margin-left: 14vw;
+     color: azure;
+ }
 
-.img1 {
-    margin: 0;
-    height: 125vh;
-    margin-top: -25vw;
-    width: 100vw;
-    background-image: url("../../assets/mimi.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    filter: brightness(20%);
-    z-index: -100;
-}
+ .img1 {
+     margin: 0;
+     height: 125vh;
+     margin-top: -15vw;
+     width: 100vw;
+     background-image: url("../../assets/mimi.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: absolute;
+     filter: brightness(20%);
+     z-index: -100;
+ }
 
-.logo {
-    scale: 0.5;
-    background-color: rgba(250, 235, 215, 0);
-    width: 100vw;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 70px;
-    gap: 4rem;
-    right: auto;
-    justify-content: center ;
-    position: absolute;
-    bottom: 10vh;
-}
+ .logo {
+     scale: 0.5;
+     background-color: rgba(250, 235, 215, 0);
+     width: 100vw;
+     height: 100px;
+     display: flex;
+     flex-direction: row;
+     margin-top: 70px;
+     gap: 4rem;
+     right: auto;
+     justify-content: center;
+     position: absolute;
+     bottom: 10vh;
+ }
 
-.git {
-    background-image: url("../../assets/git.png");
-    background-size: cover;
-    height: 100px;
-    width: 100px;
-}
+ .git {
+     background-image: url("../../assets/git.png");
+     background-size: cover;
+     height: 100px;
+     width: 100px;
+ }
 
-.link {
-    background-image: url("../../assets/linkedin.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100px;
-    width: 150px;
+ .link {
+     background-image: url("../../assets/linkedin.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100px;
+     width: 150px;
 
-}
+ }
 
-.gmail {
-    background-image: url("../../assets/gmail.png");
-    background-size: cover;
-    height: 100px;
-    width: 100px;
+ .gmail {
+     background-image: url("../../assets/gmail.png");
+     background-size: cover;
+     height: 100px;
+     width: 100px;
 
-}
+ }
 
 
 
-@media (width >= 1900px) {
-    .name {
-         scale: 1.2; 
+
+ @media (width <=500px) {
+     .name {
+         margin-top: 20px;
+         font-size: 2rem;
+         margin-left: 20px;
+     }
+
+     .name-text {
+         margin-left: 20px;
+         font-size: 1.6rem;
+         width: 80vw;
+     }
+ }
+
+ @media (width <=400px) {
+     .name {
+         margin-top: 20px;
+         font-size: 2.1rem;
+         margin-left: 20px;
+     }
+
+     .name-text {
+         margin-left: 20px;
+         font-size: 1.2rem;
+         width: 80vw;
+     }
+ }
+
+
+
+
+ @media (height >=700px) and (width <=600px) {
+     .name {
+         margin-top: 20px;
+         font-size: 2rem;
+         margin-left: 20px;
+     }
+
+     .name-text {
+         margin-left: 20px;
+         font-size: 1.5rem;
+         width: 80vw;
+     }
+ }
+
+
+
+ @media (width > 1890px) {
+     .name {
         font-size: 6rem;
-        margin-top: 5rem;
-        margin-left: 5vw;
-    }
-    .name-text {
-        font-size: 2.5rem;
-        margin-top: 9vh;
-        width: 50vw;
-        margin-left: 5vw;
-    }
-}
+     }
 
-  
-@media (width <= 500px)  {
-    .name { 
-        margin-top: 20px;
+     .name-text {
        font-size: 2rem;
-       margin-left: 20px;
-   }
-   .name-text {
-    margin-left: 20px;
-       font-size: 1.6rem;
-       width: 80vw;
-   }
-  }
-
-  @media (width <= 400px)  {
-    .name { 
-        margin-top: 20px;
-       font-size: 2.1rem;
-       margin-left: 20px;
-   }
-   .name-text {
-    margin-left: 20px;
-       font-size: 1.2rem;
-       width: 80vw;
-   }
-  }
-
-  
-
-    
-@media (height >= 700px) and  (width <= 600px) {
-    .name { 
-        margin-top: 20px;
-       font-size: 2rem;
-       margin-left: 20px;
-   }
-   .name-text {
-    margin-left: 20px;
-       font-size: 1.5rem;
-       width: 80vw;
-   }
-  }
+     }
+ }
